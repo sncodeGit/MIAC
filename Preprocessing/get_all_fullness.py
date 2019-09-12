@@ -10,7 +10,8 @@ import pandas as pd
 length = 892489 # Количество записей в выгрузке
 
 df = pd.read_excel('top1.xlsx') # top1.xlsx - файл с названиями столбцов (см. Google диск)
-ser = pd.Series(df.columns)
+ser = pd.Series(df.columns) # Можно использовать для целочисленного перебора по номерам столбцов 
+#Ex: (ser[0] - название первого столбца и тд)
 
 conn = pymssql.connect(host='localhost', user='sa', 
                        password='your_passw', database='test_regiz') # заменить your_passw
