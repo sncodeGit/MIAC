@@ -26,10 +26,11 @@ for i in ('IdCaseType1',): # Список столбцов или столбец
     data_range = []
     for j in range(length):
         if (ans[j][0] is not None):
-            flag = 0
+            flag = 0 # Совпадает ли с предыдущими значениями столбца
             for k in range(len(data_range)):
                 if (data_range[k] == ans[j][0]):
                     flag = 1
+                    break
             if (flag == 0):
                 data_range.append(ans[j][0])
             if (len(data_range) > 100):
