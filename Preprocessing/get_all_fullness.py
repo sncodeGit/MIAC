@@ -7,7 +7,7 @@
 import pymssql
 import pandas as pd
 
-length = 892489
+length = 892489 # Количество записей в выгрузке
 
 df = pd.read_excel('top1.xlsx') # top1.xlsx - файл с названиями столбцов (см. Google диск)
 ser = pd.Series(df.columns)
