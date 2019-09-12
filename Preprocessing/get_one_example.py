@@ -23,7 +23,11 @@ for i in ('IdAmbResult',): # Столбец или список столбцов
     cur.execute(req)
     ans = cur.fetchall()
     
+    flag = False  # Был ли найден пример записи
     for j in range(length):
         if (ans[j][0] is not None):
-            print(i, ': ', ans[j][0])
+            print(ser[i], ': ', ans[j][0])
+            flag = True
             break
+    if (flag == False):
+        print(ser[i], ': No one example :(')
