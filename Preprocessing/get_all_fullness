@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+"""
+Вывод в процентах пустых строк
+@author: inter000
+"""
+
+import pymssql
+import pandas as pd
+
+length = 892489
+
+df = pd.read_excel('top1.xlsx') # top1.xlsx - файл с названиями столбцов (см. Google диск)
+ser = pd.Series(df.columns)
+
+conn = pymssql.connect(host='localhost', user='sa', 
+                       password='your_passw', database='test_regiz') # заменить your_passw
+cur = conn.cursor()
+
+for i in range(247):
+    counter = 0
+    
+    req = 'SELECT ' + ser[i] + ' FROM dbo.Запрос2'
+    cur.execute(req)
+    ans = cur.fetchall()
+    
+    for j in range(length):
+        if (ans[j][0] is None):
+            counter += 1
+    
+    print(ser[i], " : ", counter/length*100)
