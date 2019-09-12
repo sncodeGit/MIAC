@@ -1,0 +1,23 @@
+IdCase1 IdCase4 
+IdCasePaymentType IdPaymentType2 IdRCasePaymentType 
+IdCaseType1 IdCaseType2 
+IdCaseResult1 IdCaseResult2 
+IdTypeFromDiseaseStart1 IdTypeFromDiseaseStart2 
+IDHospResult IdRHospResult 
+IdRHospitalizationPrimacy1 IdRHospitalizationPrimacy2 
+IdHospitalizationOrder1 IdRHospitalizationOrder 
+IDDoctor2 IDDoctor3 
+IdVisitPlace IdRVisitPlace 
+IdVisitPurpose IdRVisitPurpose 
+IdAddress1 IdAddress2 
+IdSpeciality1 IdSpeciality2 
+IdMedDocumentType1 IdMedDocumentType2 
+IdReferralType Active_l2 
+IdHospitalizationOrder2 IdComponent_l2 
+IdDiseaseType IdRDiseaseType 
+IdDiagnosisType1 IdDiagnosisType2 
+IdTraumaType IdRTraumaType2 IdRTraumaType1 
+IdRDispensary_State IdRDispensaryState2 
+Name15 Name18 
+IdServiceType1 IdServiceType2 
+IdRTFORMSMedicalStandard IdRTFORMSMedicalStandard2 
