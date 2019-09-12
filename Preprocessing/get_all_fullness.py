@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Вывод в процентах пустых строк
+Вывод процентов пропусков по всем столбцам
 @author: inter000
 """
 
@@ -16,7 +16,7 @@ conn = pymssql.connect(host='localhost', user='sa',
                        password='your_passw', database='test_regiz') # заменить your_passw
 cur = conn.cursor()
 
-for i in range(247):
+for i in range(247): # Можно заменить на конкретные столбцы
     counter = 0
     
     req = 'SELECT ' + ser[i] + ' FROM dbo.Запрос2'
