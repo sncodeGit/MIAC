@@ -32,6 +32,7 @@ for i in ('IdCaseType1',): # Список столбцов или столбец
             if (flag == 0):
                 data_range.append(ans[j][0])
             if (len(data_range) > 100):
+                print('Next more than 100!')
                 break
         
     print(i, ': ', sorted(data_range))
