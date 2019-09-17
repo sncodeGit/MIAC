@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Поиск полностью совпадающих столбцов.
-Результат работы программы: Repeated_columns.txt
+Результат работы программы: Repeated_columns.txt (Google Disk) и ./result_repeated_columns.txt (Git).
 @author: PapernyukAlex
 """
 
