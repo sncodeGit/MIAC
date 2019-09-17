@@ -2,6 +2,7 @@
 """
 Поиск полностью совпадающих столбцов.
 Результат работы программы: Repeated_columns.txt (Google Disk) и ./result_repeated_columns.txt (Git).
+Усовершенствованная версия программы - [repeated_with_null.py]
 @author: PapernyukAlex
 """
 
