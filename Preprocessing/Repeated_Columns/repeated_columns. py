@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Поиск полностью совпадающих столбцов.
+Результат работы программы: Repeated_columns.txt
+@author: PapernyukAlex
+"""
+
 import pandas as pd
 import numpy as np
 
