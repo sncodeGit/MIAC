@@ -20,8 +20,8 @@ conn = pymssql.connect(host='localhost', user='sa',
                        password='your_passw', database='test_regiz') # заменить your_passw
 cur = conn.cursor()
 
-for i in ('IdCaseType1',): # Список столбцов или столбец
-    req = 'SELECT ' + i + ' FROM dbo.Запрос2'
+for i in ('IdCaseType1',): # Список столбцов или столбец. ТАкже может быть целочисленным диапазоном, но
+    req = 'SELECT ' + i + ' FROM dbo.Запрос2' # Тогда необходимо заменить i на ser[i] здесь и ввыводе.
     cur.execute(req)
     ans = cur.fetchall()
     
