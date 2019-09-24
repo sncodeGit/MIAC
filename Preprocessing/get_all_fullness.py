@@ -7,7 +7,7 @@
 import pymssql
 import pandas as pd
 
-length = 892489 # Количество записей в выгрузке
+LENGTH = 892489 # Количество записей в выгрузке
 
 df = pd.read_excel('top1.xlsx') # top1.xlsx - файл с названиями столбцов (см. Google диск)
 ser = pd.Series(df.columns) # Можно использовать для целочисленного перебора по номерам столбцов 
@@ -24,8 +24,8 @@ for i in range(247): # Можно заменить на конкретные с�
     cur.execute(req)
     ans = cur.fetchall()
     
-    for j in range(length):
+    for j in range(LENGTH):
         if (ans[j][0] is None):
             counter += 1
     
-    print(ser[i], " : ", counter/length*100)
+    print(ser[i], " : ", counter/LENGTH*100)
