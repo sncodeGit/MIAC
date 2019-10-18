@@ -18,6 +18,7 @@
 классификации больниц (по medobjtype и medorgtype)
 
 2) ***get_MOid_with_1MOtype.py***
+
 Вывод id МО, имеющих один код типа МО.
 
 Необходимо:
