@@ -7,15 +7,14 @@
 
 Необходимо:
 
-файл manual_MO.xlsx, выгрзку в excel из справочника МО
+- файл manual_MO.xlsx, выгрзку в excel из справочника МО
 
-файл num_of_hosp_records формата id_МО:количество_записей_в_выгрузке
+- файл num_of_hosp_records формата id_МО:количество_записей_в_выгрузке
 
 
 Вывод:
 
-файлы count_of_rows_by_medorgtype.txt и count_of_rows_by_medobjtype.txt
-
+файлы count_of_rows_by_medorgtype.txt и count_of_rows_by_medobjtype.txt 
 формата code_of_MO_type:количество_записей_в_выгрузке
 
 Вывод поделён на два файла в связи с наличием двух непересекающихся типов 
@@ -27,6 +26,6 @@
 
 Необходимо:
 
-файл manual_MO.xlsx, выгрзку в excel из справочника МО
+- файл manual_MO.xlsx, выгрзку в excel из справочника МО
 
-файл num_of_hosp_records формата id_МО:количество_записей_в_выгрузке
+- файл num_of_hosp_records формата id_МО:количество_записей_в_выгрузке
