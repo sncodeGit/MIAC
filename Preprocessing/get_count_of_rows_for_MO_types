@@ -56,5 +56,5 @@ main_sheet = wb['Reference data'] # Выбираем таблицу файла
 
 # Y - код столбца 'medorgtype, codes' 
 write_code_count('Y','count_of_rows_by_medorgtype.txt')
-# Y - код столбца 'medobjtype, codes' 
+# AE - код столбца 'medobjtype, codes' 
 write_code_count('AE','count_of_rows_by_medobjtype.txt')
