@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """
+Created on Mon Oct 21 00:02:14 2019
 Добавление в конец csv-файла FILE_NAME любого размера столбца Index, содержащего нумерацию строк с номера act_ind
 @author: inter000
 """
